@@ -58,7 +58,9 @@ A rota escolhe o controller, que escolhe a rota, model e view.
 
 > <h1>Essa aplicação trabalha com MVC.</h1>
 > Model
+> 
 > Views
+> 
 > Controllers
 
 
