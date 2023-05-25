@@ -31,6 +31,23 @@ Na produção, é criado o env para esconder essas informações.
 
 O **mongoose** tem relação com a modelagem do banco de dados. No boilerplate criamos um connect com os dados do env, a partir disso, acessamos a promisse com o then e catch, tratando ali e emitindo um sinal com emit, caso de certo.
 
+O **session** identifica o navegador do cliente, salvando um cookie com ID no computador do cliente, toda vez que conecta no servidor, ele manda o cookie, ele verifica a ID e usa os dados ali.
+
+O **MongoStore** configura para salvar as sessões vão ser salvas dentro da base de dados, por padrão (sem o MongoStore), ele salva no servidor, o que é perigoso.
+
+O **flashMessages** são as mensagens autodestrutivas, mensagens que ao serem lidas, sejam destruidas, servem para mandar mensagens e feedback. Essas mensagens são salvas em sessões, por isso usamos o **session**.
+
+O **routes** são as rotas da nossa sessão, /home, etc..
+
+O **path** é usado para trabalhar com os caminhos
+
+O **helmet** é recomendado pela equipe do Express.
+
+O **csrf** cria token para todos os formulários da nossa aplicação, onde, nenhum aplicativo externo ou site, poste algo dentro da nossa aplicação. aumenta a segurança de nossa apicação. 
+
+O **middlewareGlobal**, **checkCsrfError**, **csrfMiddleware** são middlewares criados por mim.  **Middlewares** são coisas executadas na rota, como uma cadeia de comandos que são executados.
+
+O ****
 
 
 
