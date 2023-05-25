@@ -60,7 +60,6 @@ A rota escolhe o controller, que escolhe a rota, model e view.
 > Model
 > 
 > Views
-> 
 > Controllers
 
 
