@@ -21,10 +21,10 @@ Mostraremos aqui a estrutura dos arquivos do projeto:
 > - server.js
 > - webpack.config.js
 
-Iniciaremos falando agora sobre o server.js, pois é o arquivo principal do boilberplate.
 
 
 > <h1>Server.js</h1>
+> Iniciaremos falando agora sobre o server.js, pois é o arquivo principal do boilberplate.
 
 O **env** tem relação com dados, ambiente de desenvolvimento privado, dados pessoais.
 Na produção, é criado o env para esconder essas informações.
@@ -48,6 +48,7 @@ O **csrf** cria token para todos os formulários da nossa aplicação, onde, nen
 O **middlewareGlobal**, **checkCsrfError**, **csrfMiddleware** são middlewares criados por mim.  **Middlewares** são funções executadas na rota, como uma cadeia de comandos que são executados.
 
 > <h1>routes.js</h1>
+> Sobre o arquivo routes.js agora.
 
 O arquivo routes ele decide qual controller vai ser utilizado, quem vai controlar aquela rota.
 
