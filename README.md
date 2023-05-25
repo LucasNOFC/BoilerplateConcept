@@ -45,9 +45,22 @@ O **helmet** é recomendado pela equipe do Express.
 
 O **csrf** cria token para todos os formulários da nossa aplicação, onde, nenhum aplicativo externo ou site, poste algo dentro da nossa aplicação. aumenta a segurança de nossa apicação. 
 
-O **middlewareGlobal**, **checkCsrfError**, **csrfMiddleware** são middlewares criados por mim.  **Middlewares** são coisas executadas na rota, como uma cadeia de comandos que são executados.
+O **middlewareGlobal**, **checkCsrfError**, **csrfMiddleware** são middlewares criados por mim.  **Middlewares** são funções executadas na rota, como uma cadeia de comandos que são executados.
 
-O ****
+> Essa aplicação trabalha com MVC.
+> Model
+> Views
+> Controllers
+
+#routes.js
+
+O arquivo routes ele decide qual controller vai ser utilizado, quem vai controlar aquela rota.
+
+Criamos o controlador como por exemplo: homeController, cujo seu trabalho é: decidir o model que controla os dados ali. E o view que será usado na aplicação ali.
+
+A rota escolhe o controller, que escolhe a rota, model e view.
+
+
 
 
 
