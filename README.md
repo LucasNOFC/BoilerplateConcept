@@ -22,3 +22,15 @@ Mostraremos aqui a estrutura dos arquivos do projeto:
 > - webpack.config.js
 
 Iniciaremos falando agora sobre o server.js, pois é o arquivo principal do boilberplate.
+
+
+#Server.js
+
+O **env** tem relação com dados, ambiente de desenvolvimento privado, dados pessoais.
+Na produção, é criado o env para esconder essas informações.
+
+O **mongoose** tem relação com a modelagem do banco de dados. No boilerplate criamos um connect com os dados do env, a partir disso, acessamos a promisse com o then e catch, tratando ali e emitindo um sinal com emit, caso de certo.
+
+
+
+
