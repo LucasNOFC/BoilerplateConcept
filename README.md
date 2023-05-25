@@ -24,7 +24,7 @@ Mostraremos aqui a estrutura dos arquivos do projeto:
 Iniciaremos falando agora sobre o server.js, pois é o arquivo principal do boilberplate.
 
 
-> ####Server.js
+> <h1>Server.js</h1>
 
 O **env** tem relação com dados, ambiente de desenvolvimento privado, dados pessoais.
 Na produção, é criado o env para esconder essas informações.
@@ -52,7 +52,7 @@ O **middlewareGlobal**, **checkCsrfError**, **csrfMiddleware** são middlewares 
 > Views
 > Controllers
 
-> ####routes.js
+> <h1>routes.js</h1>
 
 O arquivo routes ele decide qual controller vai ser utilizado, quem vai controlar aquela rota.
 
