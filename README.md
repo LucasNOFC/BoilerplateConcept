@@ -1,5 +1,7 @@
 <h1> Documentação da Boilerplate </h1>
 
+Essa aplicação trabalha com MVC
+
 Mostraremos aqui a estrutura das pastas:
 
 ![image](https://github.com/NobreREAL/BoilerplateConcept/assets/79422432/840428a9-f956-4ece-8d4a-b30583583582)
@@ -56,11 +58,6 @@ Criamos o controlador como por exemplo: homeController, cujo seu trabalho é: de
 
 A rota escolhe o controller, que escolhe a rota, model e view.
 
-> <h1>Essa aplicação trabalha com MVC.</h1>
-> Model
-> 
-> Views
-> Controllers
 
 
 
