@@ -47,11 +47,6 @@ O **csrf** cria token para todos os formulários da nossa aplicação, onde, nen
 
 O **middlewareGlobal**, **checkCsrfError**, **csrfMiddleware** são middlewares criados por mim.  **Middlewares** são funções executadas na rota, como uma cadeia de comandos que são executados.
 
-> Essa aplicação trabalha com MVC.
-> Model
-> Views
-> Controllers
-
 > <h1>routes.js</h1>
 
 O arquivo routes ele decide qual controller vai ser utilizado, quem vai controlar aquela rota.
@@ -59,6 +54,11 @@ O arquivo routes ele decide qual controller vai ser utilizado, quem vai controla
 Criamos o controlador como por exemplo: homeController, cujo seu trabalho é: decidir o model que controla os dados ali. E o view que será usado na aplicação ali.
 
 A rota escolhe o controller, que escolhe a rota, model e view.
+
+> <h1>Essa aplicação trabalha com MVC.</h1>
+> Model
+> Views
+> Controllers
 
 
 
